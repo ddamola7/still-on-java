@@ -68,6 +68,66 @@ console.log(5!='5');
 console.log(100>17);
 console.log(18>=18); 
 
+// var x = 'hello '
+// var y = 'world'
+// console.log(x + y);
+
+// javascript object
+var staff ={
+    fullName: 'EHI OLUWAGBENGA',
+    job: 'Tech support',
+    age: undefined,
+    disability: null,
+    wagePerDay: 20000,
+    marriedStatus: true,
+    phoneNumber: 9034433227,
+    hobbies: ['coding', 'cooking', 'traveling',],
+    address: {
+        number: 17,
+        street: 'alagomeji',
+        city: 'yaba',
+        state: 'lagos',
+        country: 'Nigeria',
+    }
+}
+
+var staff2 ={
+    fullName: 'Adediran Oyindamola',
+    job: 'software dev',
+    age: undefined,
+    disability: null,
+    wagePerDay: 12500,
+    numberOfDaysPresent: 4,
+    salary: function(){
+        return this.wagePerDay*this.numberOfDaysPresent
+    },
+    maritalStatus: false,
+    phoneNumber: 7089653673,
+    hobbies: ['football', 'coding', 'sleeping','movies'],
+    address: {
+        number: 19,
+        street: 'harmony court estate',
+        city: 'surulere',
+        state: 'lagos state',
+        country: 'Nigeria'
+    }
+}
+staff2.maritalStatus = true
+console.log(staff2);
+
+console.log(staff2.address.city);
+staff2.address.city = 'ikeja'
+console.log(staff2);
+
+staff2.hobbies[1] = 'clubbing'
+console.log(staff2);
+
+console.log(staff2.salary());
+
+
+
+
+
 
 
 
