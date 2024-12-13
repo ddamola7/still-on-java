@@ -125,6 +125,81 @@ console.log(staff2);
 console.log(staff2.salary());
 
 
+function seasonGreetings(){
+    return console.log('merry christmas');
+    
+}
+seasonGreetings()
+
+function add(x,y){
+    var sum= x+y
+    return console.log(sum);
+    
+}
+add(10,25)
+add(30,10)
+
+function areaOfTriangle(h,b){
+    var areaOfTriangle = 0.5*h*b
+    return console.log(areaOfTriangle);
+}
+areaOfTriangle(5,7)
+areaOfTriangle(12,7)
+
+function perimeterOfTriangle(a,b,c){
+    var perimeterOfTriangle = a+b+c
+    return console.log(perimeterOfTriangle);
+}
+perimeterOfTriangle(5,7,7)
+perimeterOfTriangle(5,5,7)
+
+function salute(name){
+    return console.log('hello ' + name);
+}
+
+salute("Dami")
+
+function salute(name){
+    return console.log('hello ' + name);
+    
+}
+salute('damola')
+
+
+// var score = 65
+// switch(score){
+//     case (score <= 40):
+//         console.log('your grade is D');
+//         break;
+//     case (score >= 41 && score <= 50):
+//         console.log('your grade is C');
+//         break;
+//     case (score >= 51 && score <= 70):
+//         console.log('your grade is B');
+//         break;
+//     default:
+//         console.log('your grade is A');
+        
+// }
+
+var score = 32;
+
+if (score <= 40) {
+    console.log('your grade is D');
+} else if (score >= 41 && score <= 50) {
+    console.log('your grade is C');
+} else if (score >= 51 && score <= 70) {
+    console.log('your grade is B');
+} else {
+    console.log('your grade is A');
+}
+
+
+
+
+
+
+
 
 
 
